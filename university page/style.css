@@ -1,0 +1,111 @@
+*{
+margin:0;
+padding:0;
+}
+
+.logo{
+      width: 25%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+
+
+}
+
+.logo img{
+width: 30%;
+border-radius: 25px;
+
+}
+
+.navbar{
+    display: flex ;
+   
+     background-size: cover;
+     background-blend-mode: darken;
+
+}
+
+.nav-list{
+    width: 70%;
+   /* background-color: brown;*/
+    display: flex;
+    align-items: center;
+    font: 100;
+}
+
+.nav-list li
+{
+    list-style: none;
+    padding: 25px 30px;
+    font: bold;
+
+}
+.nav-list li a{
+
+    text-decoration: none;
+    color: rgb(154, 17, 17);
+   
+}
+
+.nav-list li a:hover
+{
+   color: rgb(56, 14, 40);
+    font-size: large;
+    
+} 
+.rightnav{
+/*background-color: blueviolet;*/
+width: 30%;
+text-align: right;
+padding: 10px;
+margin: 0px 15px;
+}
+.section{
+    background-color: aliceblue;
+align-items: flex-end;
+padding: 18px 40px;
+text-decoration: ghostwhite;
+}
+.para1{
+  
+    height: 250px;
+    align-items: center;
+    justify-content: center;
+   
+}
+
+.imagedit img{
+   
+    width: 135px;
+    height: 197px;
+   
+  }
+
+.section h1{
+text-align: center;
+
+}
+
+.btn-sm{
+align-items: center;
+padding: 2px 8px;
+}
+.table table{
+    font-size: large;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+    padding-top: 20px;
+    padding-bottom: 40px;
+    border: 1px solid #ddd;
+}
+  /* .edit{
+
+        background-image: url("image/addimg1.jpg");
+    }
+    */
+    .class{
+        text-align: center;
+        text-decoration: gold;
+    }
